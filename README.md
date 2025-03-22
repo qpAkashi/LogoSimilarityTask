@@ -44,14 +44,6 @@
         </li>
     </ol>
 
-<h2>Example Workflow</h2>
-    <pre><code>1. Input: A list of domains (e.g., example.com, example.org, example.net).
-2. Logo Extraction: Scrapes each website and extracts the logo URL.
-3. Download and Preprocess: Logos are downloaded, resized, and converted to grayscale.
-4. Similarity Calculation: Computes histogram correlation and SSIM for each pair of logos.
-5. Grouping: Logos are grouped based on similarity scores.
-6. Output: Groups of similar logos are displayed.</code></pre>
-
 <h2>Key Technologies Used</h2>
     <ul>
         <li><strong>Web Scraping</strong>: To extract logo URLs from websites.</li>
