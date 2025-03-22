@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logo Clustering Project</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
-        h1, h2 { color: #333; }
-        code { background: #f4f4f4; padding: 5px; border-radius: 4px; }
-        pre { background: #f4f4f4; padding: 10px; border-radius: 4px; overflow-x: auto; }
-    </style>
-</head>
-<body>
-    <h1>Logo Clustering Project</h1>
-    <p>This project extracts, downloads, and compares logos from company websites using <strong>OpenCV, BeautifulSoup, Pandas, and NumPy</strong>. The logos are clustered based on structural similarity and histogram comparison.</p>
 
+<body>
+    <h1>Logo Similarity Task</h1>
+    
     <h2>Features</h2>
     <ul>
         <li>Extracts logos from website domains.</li>
@@ -22,12 +9,6 @@
         <li>Compares logos using histogram correlation and SSIM.</li>
         <li>Groups similar logos based on computed similarity scores.</li>
     </ul>
-
-    <h2>Installation</h2>
-    <pre><code>pip install -r requirements.txt</code></pre>
-
-    <h2>Usage</h2>
-    <pre><code>python script.py</code></pre>
 
     <h2>How It Works</h2>
     <ol>
